@@ -1,5 +1,4 @@
-deployment-template: 
- 
+
 name: Shared Deployment Blueprint
  
 on:
