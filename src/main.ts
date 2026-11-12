@@ -26,21 +26,3 @@ export async function run(): Promise<void> {
   }
 }
 
-// ❌ FAILS PRETTIER Check
-export   const calculateTotal =(price:number, tax:number)=>
-{
-    consttotal=price * tax
-    return 'Total price is:' +total
-}
-
-
-// ❌ FAILS ESLINT Check
-export const getUserData = (userId:any) => {
-  const secretToken = "12345";
- 
-  let username = "Alex";
- 
-  return {
-    id:userId
-  };
-};
