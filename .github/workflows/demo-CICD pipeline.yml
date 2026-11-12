@@ -1,5 +1,4 @@
-CICD pipeline:
- 
+
 name: Demo CICD Multi-Stage Deployment
 on:
   workflow_run:
